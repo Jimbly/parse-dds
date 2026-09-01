@@ -1,6 +1,11 @@
-# parse-dds
+# @jimbly/parse-dds
 
-[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
+Maintained fork of https://github.com/Experience-Monks/parse-dds with fixes:
+* Fix rectangular textures with mipmaps
+* Fix non-multiple-of-4 sized textures or mipmap layers
+
+
+# parse-dds
 
 Parses DDS texture headers in Node and the browser. 
 
