@@ -1,14 +1,13 @@
 {
-  "name": "parse-dds",
-  "version": "1.2.1",
+  "name": "@jimbly/parse-dds",
+  "version": "1.0.0",
   "description": "parses the headers of a DDS texture file",
   "main": "index.js",
   "license": "MIT",
-  "author": {
-    "name": "Matt DesLauriers",
-    "email": "dave.des@gmail.com",
-    "url": "https://github.com/mattdesl"
-  },
+  "authors": [
+    "Matt DesLauriers <dave.des@gmail.com> (https://github.com/mattdesl)",
+    "Jimb Esser (https://github.com/Jimbly)"
+  ],
   "dependencies": {},
   "devDependencies": {
     "a-big-triangle": "^1.0.0",
@@ -38,12 +37,9 @@
     "parses",
     "read"
   ],
+  "homepage": "https://github.com/Jimbly/parse-dds#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Jam3/parse-dds.git"
-  },
-  "homepage": "https://github.com/Jam3/parse-dds",
-  "bugs": {
-    "url": "https://github.com/Jam3/parse-dds/issues"
+    "url": "git+https://github.com/Jimbly/npm-publish.git"
   }
 }
