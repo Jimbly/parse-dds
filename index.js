@@ -135,8 +135,8 @@ function parseHeaders (arrayBuffer) {
         if (i < mipmapCount) {
           dataOffset += dataLength
         }
-        width = Math.floor(width / 2)
-        height = Math.floor(height / 2)
+        width = Math.max(1, Math.floor(width / 2))
+        height = Math.max(1, Math.floor(height / 2))
       }
     }
   } else {
@@ -149,8 +149,8 @@ function parseHeaders (arrayBuffer) {
         shape: [ width, height ]
       })
       dataOffset += dataLength
-      width = Math.floor(width / 2)
-      height = Math.floor(height / 2)
+      width = Math.max(1, Math.floor(width / 2))
+      height = Math.max(1, Math.floor(height / 2))
     }
   }
 
