@@ -141,7 +141,7 @@ function parseHeaders (arrayBuffer) {
     }
   } else {
     for (var i = 0; i < mipmapCount; i++) {
-      dataLength = Math.max(4, width) / 4 * Math.max(4, height) / 4 * blockBytes
+      dataLength = Math.ceil(width/4) * Math.ceil(height/4) * blockBytes
 
       images.push({
         offset: dataOffset,
